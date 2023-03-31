@@ -1,0 +1,29 @@
+
+.temperatura{
+   border: solid black;
+  border-radius: 50px;
+  font-weight:900;
+  background-color: cadetblue;
+  align-items: center;
+  transition: transform 0.5s;
+  transform: scale(1);
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #4d4dea, cadetblue);
+  width: 180px;
+}
+
+.temperatura:hover{
+  transform: scale(1.2);
+  font-weight:900;
+}
+
+body{
+  background-image: linear-gradient(135deg, cadetblue, blue);
+}
+
+.layout{
+    border-width: 10px;
+     border-style: solid;
+     border-color: #0000;
+    border-radius: 10px;
+}
